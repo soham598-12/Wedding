@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Hershini &amp; Vinit | Wedding Invitation</title>
+  <meta name="description" content="Join Hershini and Vinit on 15 February 2027 at Shoonya Farm Retreat.">
+  <meta property="og:title" content="Hershini &amp; Vinit | Wedding Invitation">
+  <meta property="og:description" content="15 February 2027 · Shoonya Farm Retreat">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Great+Vibes&family=Inter:wght@300;400;500&family=Noto+Serif+Gujarati:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="locked">
+
+<svg width="0" height="0" class="svg-defs" aria-hidden="true">
+  <symbol id="sprig" viewBox="0 0 100 200">
+    <g fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round">
+      <path d="M50 198C46 140 54 80 50 8"/>
+      <path d="M49 165c-24-2-34-18-36-34 22 0 34 14 36 34z"/>
+      <path d="M50 135c24-2 34-18 36-34-22 0-34 14-36 34z"/>
+      <path d="M50 105c-22-2-32-16-34-30 20 0 32 12 34 30z"/>
+      <path d="M50 76c20-2 30-14 32-28-18 0-30 12-32 28z"/>
+      <path d="M50 48c-16-2-24-12-26-24 16 0 24 10 26 24z"/>
+    </g>
+  </symbol>
+  <symbol id="flower" viewBox="-30 -30 60 60">
+    <g fill="none" stroke="currentColor" stroke-width=".9">
+      <ellipse cx="0" cy="-13" rx="6" ry="13"/>
+      <ellipse cx="0" cy="-13" rx="6" ry="13" transform="rotate(60)"/>
+      <ellipse cx="0" cy="-13" rx="6" ry="13" transform="rotate(120)"/>
+      <ellipse cx="0" cy="-13" rx="6" ry="13" transform="rotate(180)"/>
+      <ellipse cx="0" cy="-13" rx="6" ry="13" transform="rotate(240)"/>
+      <ellipse cx="0" cy="-13" rx="6" ry="13" transform="rotate(300)"/>
+      <circle r="3"/>
+    </g>
+  </symbol>
+</svg>  
+
+<!-- FULL-SCREEN OPENING INVITATION -->
+<div class="gate" id="gate">
+  <div class="gate-glow"></div><div class="gate-dust"></div>
+  <div class="gate-inner">
+    <p class="eyebrow gate-label">YOU ARE INVITED</p>
+
+    <div class="env" id="env" aria-label="Wedding envelope">
+      <div class="env-shadow"></div>
+      <div class="env-back"></div>
+      <div class="env-paper">
+        <div class="paper-inner">
+          <span>THE WEDDING OF</span>
+          <strong>Hershini &amp; Vinit</strong>
+          <i>15 February 2027</i>
+        </div>
+      </div>
+      <div class="env-front"></div>
+      <div class="flap"><i class="fo"></i><i class="fi"></i></div>
+      <div class="env-edge"></div>
+      <button class="seal" id="seal" aria-label="Tap H and V to open the invitation">H&amp;V</button>
+    </div>
+
+    <p class="gate-hint">Tap the seal to open</p>
+  </div>
+</div>
+
+<button class="music" id="music" aria-label="Pause wedding music" aria-pressed="false" hidden>
+  <span class="music-ring"></span><span class="bars"><b></b><b></b><b></b></span>
+</button>
+
+<main id="main">
+  <!-- HERO -->
+  <section class="sec hero" id="hero">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="hero-glow ly" data-d="8"></div>
+      <svg class="hero-arch ly" data-d="22" viewBox="0 0 400 800" preserveAspectRatio="xMidYMid slice">
+        <g fill="none" stroke="#A98B62" stroke-linecap="round"><path d="M70 800V300a130 130 0 0 1 260 0V800" stroke-width="1.4" opacity=".55"/><path d="M92 800V304a108 108 0 0 1 216 0V800" stroke-width=".8" opacity=".45"/><path d="M112 800V308a88 88 0 0 1 176 0V800" stroke-width=".6" opacity=".3"/></g>
+        <g class="gar"><path d="M74 300Q200 440 326 300" fill="none" stroke="#D9A0A3" stroke-width="6" stroke-dasharray="0 10" stroke-linecap="round"/><path d="M74 300Q200 440 326 300" fill="none" stroke="#A98B62" stroke-width=".7" opacity=".6"/><path d="M84 300V500M316 300V520" stroke="#C98A8E" stroke-width="5" stroke-dasharray="0 9" stroke-linecap="round" fill="none"/></g>
+        <g class="gar b"><path d="M96 256Q200 340 304 256" fill="none" stroke="#E8C9C8" stroke-width="5" stroke-dasharray="0 9" stroke-linecap="round"/><path d="M110 300V430M290 300V450" stroke="#D9BE8F" stroke-width="4" stroke-dasharray="0 8" stroke-linecap="round" fill="none"/></g>
+      </svg>
+      <div class="dust"></div>
+      <svg class="hero-sprig hero-sprig-left ly" data-d="46"><use href="#sprig"/></svg>
+      <svg class="hero-sprig hero-sprig-right ly" data-d="46"><use href="#sprig"/></svg>
+    </div>
+    <p class="eyebrow rv">THE WEDDING OF</p>
+    <h1 class="names big rv"><span>Hershini</span><i>&amp;</i><span>Vinit</span></h1>
+    <p class="quote rv">Together with their families, Hershini &amp; Vinit invite you to celebrate their special day.</p>
+    <span class="scroll-cue rv" aria-hidden="true"></span>
+  </section>
+
+  <!-- SCRATCH REVEAL -->
+  <section class="sec" id="scratch">
+    <p class="eyebrow rv">A LITTLE REVEAL</p>
+    <h2 class="h rv">Scratch to reveal our day</h2>
+    <div class="card rv" id="card">
+      <div class="under" id="under">
+        <svg class="flw"><use href="#flower"/></svg>
+        <div class="date-main">15TH FEBRUARY 2027</div>
+        <div class="day-main">MONDAY</div>
+        <div class="rule"></div>
+        <div class="time-main">5:00 PM</div>
+      </div>
+      <canvas id="scratchCv" aria-label="Scratch surface. Use mouse or finger to reveal the wedding date."></canvas>
+    </div>
+    <button class="link rv" id="revealBtn">Reveal without scratching</button>
+  </section>
+
+  <!-- COUPLE -->
+  <section class="sec couple-section" id="couple">
+    <svg class="corner tl"><use href="#sprig"/></svg>
+    <svg class="corner tr"><use href="#sprig"/></svg>
+    <p class="eyebrow rv">THE COUPLE</p>
+    <div class="pair">
+      <div class="person rv">
+        <h2 class="script xl">Hershini</h2>
+        <p class="deg">PGDM</p>
+        <p class="parent-line">D/O of Mrs Rasilaben Patel and Mr Ashwin Patel</p>
+      </div>
+      <div class="amp big rv">&amp;</div>
+      <div class="person rv">
+        <h2 class="script xl">Vinit</h2>
+        <p class="deg">BA in Film Making</p>
+        <p class="parent-line">S/O of Mrs Jaishreeben Patel and Mr Purushottam Patel</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- DATE -->
+  <section class="sec dark date-section" id="date">
+    <svg class="orn rv"><use href="#flower"/></svg>
+    <p class="eyebrow rv">SAVE THE DATE</p>
+    <p class="d-num rv">15<sup>TH</sup></p>
+    <p class="d-mon rv">FEBRUARY</p>
+    <p class="d-yr rv">2027</p>
+    <p class="d-day rv">MONDAY</p>
+    <div class="rule rv"></div>
+    <p class="guj big rv">હસ્તમેળાપ</p>
+    <p class="time big rv">17:51 PM</p>
+  </section>
+
+  <!-- COUNTDOWN -->
+  <section class="sec countdown-section" id="countdown">
+    <p class="eyebrow rv">COUNTING DOWN TO FOREVER</p>
+    <p class="countdown-sub rv">Until the auspicious Wedding</p>
+    <div class="cd rv" id="cd" role="timer" aria-live="off">
+      <div><b id="cd-d">000</b><span>DAYS</span></div>
+      <div><b id="cd-h">00</b><span>HOURS</span></div>
+      <div><b id="cd-m">00</b><span>MINUTES</span></div>
+      <div><b id="cd-s">00</b><span>SECONDS</span></div>
+    </div>
+    <p class="script xl hidden" id="cd-done">The moment has arrived.</p>
+    <p class="countdown-target rv">15 February 2027 · 17:51 PM</p>
+  </section>
+
+  <!-- CELEBRATION -->
+  <section class="sec" id="celebration">
+    <p class="eyebrow rv">THE CELEBRATION</p>
+    <h2 class="h rv">A story in five moments</h2>
+    <ol class="tl" id="tl">
+      <span class="line"><i id="tlFill"></i></span>
+      <li class="rv"><svg><use href="#flower"/></svg><h3>Ganesh Pooja (Mandavo)</h3><p>February 14, 2027</p><p class="t">7:31 AM</p></li>
+      <li class="rv"><svg><use href="#flower"/></svg><h3>Mamera</h3><p>February 14, 2027</p><p class="t">2:30 PM</p></li>
+      <li class="rv"><svg><use href="#flower"/></svg><h3>Sangeet</h3><p>February 14, 2027</p><p class="t">7:00 PM</p></li>
+      <li class="rv"><svg><use href="#flower"/></svg><h3>Haldi</h3><p>February 15, 2027</p><p class="t">9:00 AM</p></li>
+      <li class="rv featured-event"><svg><use href="#flower"/></svg><h3>Wedding Ceremony</h3><p>February 15, 2027</p><p class="t">5:00 PM</p></li>
+    </ol>
+  </section>
+
+  <!-- JOIN US / ONLY VENUE SECTION -->
+  <section class="sec location-section" id="location">
+    <p class="eyebrow rv">JOIN US</p>
+    <div class="venue-card rv">
+      <div class="venue-photo-wrap">
+        <img src="./images/Zero-Farm-Retreat_0d30393e2d99fd78208352aab89fd68a.webp" alt="Shoonya Farm Retreat" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+        <div class="venue-placeholder">
+          <svg><use href="#flower"/></svg>
+          <span>Shoonya Farm Retreat</span>
+          <small>Add your venue photograph as<br><b>images/venue.jpg</b></small>
+        </div>
+      </div>
+      <div class="venue-copy">
+        <h2 class="h">Shoonya Farm Retreat</h2>
+        <p class="address">Shivaji Nagar Ground, Rakaskop Rd,<br>Belgundi, Karnataka 591108, India</p>
+        <p class="pin">📍 Belgundi, Belagavi</p>
+        <a class="btn" data-maps href="https://www.google.com/maps/search/?api=1&query=Shoonya+Farm+Retreat+Belgundi+Karnataka+591108" target="_blank" rel="noopener">OPEN IN GOOGLE MAPS</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CONTACT -->
+  <section class="sec contact-section" id="contact">
+    <svg class="contact-sprig left"><use href="#sprig"/></svg>
+    <svg class="contact-sprig right"><use href="#sprig"/></svg>
+    <div class="contact-inner rv">
+      <svg class="orn"><use href="#flower"/></svg>
+      <p class="eyebrow">FOR ADDITIONAL INFORMATION</p>
+      <p class="contact-copy">For all additional information, shuttle services and wedding details, please contact:</p>
+      <h2 class="contact-name">Ashwin Govind Diwani</h2>
+      <a class="contact-phone" href="tel:9448116271">9448116271</a>
+    </div>
+  </section>
+
+  <!-- CLOSING -->
+  <footer class="sec foot" id="footer">
+    <svg class="orn rv"><use href="#flower"/></svg>
+    <h2 class="names rv"><span>Hershini</span><i>&amp;</i><span>Vinit</span></h2>
+    <p class="d-day rv">15 February 2027</p>
+    <p class="pin rv">Shoonya Farm Retreat</p>
+    <p class="quote rv">With love, we invite you to celebrate our beginning.</p>
+    <div class="rule rv"></div>
+    <p class="closing-note rv">See you under the flowers.</p>
+  </footer>
+</main>
+
+<canvas id="petals" aria-hidden="true"></canvas>
+<audio id="audio" src="./music/ wedding-song.mp3" loop preload="auto"></audio>
+<script src="script.js"></script>
+</body>
+</html>
